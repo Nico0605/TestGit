@@ -5,4 +5,9 @@ public class TestGitSimple {
             System.out.println(i);
         }
     }
+    public static void printWithNumber(String[] words){
+        for (int i = 0; i < words.length; i++) {
+            System.out.println(words[i] + " " + i);
+        }
+    }
 }
